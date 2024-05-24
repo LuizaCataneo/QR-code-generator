@@ -20,6 +20,7 @@ body {
     width: 400px;
     border-radius: 10px;
     padding: 20px;
+    box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.3);
     transition: 0.2s;
 }
 
@@ -28,18 +29,13 @@ body {
 }
 
 /* Header */
-#qr-header {
+.qr-header {
     text-align: center;
 }
 
-#qr-header h1 {
+.qr-header h1 {
     font-size: 1.8rem;
     margin-bottom: 10px;
-}
-
-#qr-header p {
-    color: #444;
-    font-size: 0.9rem;
 }
 
 /* Form */
